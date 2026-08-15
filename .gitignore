@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+
+# Xcode - Build artifacts
+build/
+DerivedData/
+*.xcarchive
+
+# Xcode - User-specific files
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+
+# Xcode - Schemes (contain per-user launch/scheme data)
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Xcode - Workspace settings
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/configuration/*.xcconfig
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Code coverage / profiler
+*.gcda
+*.gcno
+*.profdata
+
+# Vapor / server-side
+.env
+
+# IDE (VS Code / JetBrains)
+.vscode/
+.idea/

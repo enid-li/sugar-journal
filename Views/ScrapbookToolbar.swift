@@ -21,6 +21,7 @@ struct ToolbarLabel: View {
 
     var body: some View {
         Label(title, systemImage: systemImage)
+            .symbolRenderingMode(.monochrome)
             .font(.system(size: 14, weight: .semibold, design: .rounded))
             .foregroundStyle(.primary)
             .padding(.horizontal, 13)

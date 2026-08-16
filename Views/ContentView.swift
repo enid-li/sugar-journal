@@ -84,7 +84,7 @@ struct ContentView: View {
                     viewModel.addSticker(canvasSize: canvasSize)
                 }
 
-                ToolbarButton(title: "Add Text", systemImage: "textformat.abc") {
+                ToolbarButton(title: "Add Text", systemImage: "text.bubble") {
                     viewModel.addText(canvasSize: canvasSize)
                 }
 

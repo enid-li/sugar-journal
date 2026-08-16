@@ -9,12 +9,32 @@
 /* Begin PBXBuildFile section */
 		9D0F229B2D60010100A4C001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0F229A2D60010100A4C001 /* ContentView.swift */; };
 		9D0F229D2D60010100A4C001 /* PaperCraftJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0F229C2D60010100A4C001 /* PaperCraftJournalApp.swift */; };
+		AA0000012D60020000A4C001 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000112D60020000A4C001 /* DependencyContainer.swift */; };
+		AA0000022D60020000A4C001 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000122D60020000A4C001 /* RootView.swift */; };
+		AA0000032D60020000A4C001 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000132D60020000A4C001 /* DesignSystem.swift */; };
+		AA0000042D60020000A4C001 /* DSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000142D60020000A4C001 /* DSButton.swift */; };
+		AA0000052D60020000A4C001 /* DSCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000152D60020000A4C001 /* DSCard.swift */; };
+		BB0000012D60020100A4C001 /* ScrapbookElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000112D60020100A4C001 /* ScrapbookElement.swift */; };
+		BB0000022D60020100A4C001 /* ScrapbookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000122D60020100A4C001 /* ScrapbookViewModel.swift */; };
+		BB0000032D60020100A4C001 /* ScrapbookElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000132D60020100A4C001 /* ScrapbookElementView.swift */; };
+		BB0000042D60020100A4C001 /* ScrapbookElementRenders.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000142D60020100A4C001 /* ScrapbookElementRenders.swift */; };
+		BB0000052D60020100A4C001 /* ScrapbookToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000152D60020100A4C001 /* ScrapbookToolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D0F22912D60010100A4C001 /* PaperCraft Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PaperCraft Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0F229A2D60010100A4C001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D0F229C2D60010100A4C001 /* PaperCraftJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperCraftJournalApp.swift; sourceTree = "<group>"; };
+		AA0000112D60020000A4C001 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		AA0000122D60020000A4C001 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AA0000132D60020000A4C001 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		AA0000142D60020000A4C001 /* DSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSButton.swift; sourceTree = "<group>"; };
+		AA0000152D60020000A4C001 /* DSCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSCard.swift; sourceTree = "<group>"; };
+		BB0000112D60020100A4C001 /* ScrapbookElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapbookElement.swift; sourceTree = "<group>"; };
+		BB0000122D60020100A4C001 /* ScrapbookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapbookViewModel.swift; sourceTree = "<group>"; };
+		BB0000132D60020100A4C001 /* ScrapbookElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapbookElementView.swift; sourceTree = "<group>"; };
+		BB0000142D60020100A4C001 /* ScrapbookElementRenders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapbookElementRenders.swift; sourceTree = "<group>"; };
+		BB0000152D60020100A4C001 /* ScrapbookToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapbookToolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,10 +51,284 @@
 		9D0F22882D60010100A4C001 = {
 			isa = PBXGroup;
 			children = (
-				9D0F229A2D60010100A4C001 /* ContentView.swift */,
 				9D0F229C2D60010100A4C001 /* PaperCraftJournalApp.swift */,
+				AA0000212D60020000A4C001 /* Core */,
+				AA0000222D60020000A4C001 /* Views */,
+				AA0000232D60020000A4C001 /* ViewModels */,
+				AA0000242D60020000A4C001 /* Models */,
+				AA0000252D60020000A4C001 /* Services */,
+				AA0000262D60020000A4C001 /* Template */,
+				AA0000272D60020000A4C001 /* Community */,
+				AA0000282D60020000A4C001 /* Profile */,
+				AA0000292D60020000A4C001 /* Domain */,
+				AA00002A2D60020000A4C001 /* Data */,
+				AA00002B2D60020000A4C001 /* Resources */,
+				AA00002C2D60020000A4C001 /* Tests */,
 				9D0F22922D60010100A4C001 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		AA0000212D60020000A4C001 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000112D60020000A4C001 /* DependencyContainer.swift */,
+				AA0000312D60020000A4C001 /* DesignSystem */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AA0000312D60020000A4C001 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000132D60020000A4C001 /* DesignSystem.swift */,
+				AA0000322D60020000A4C001 /* Components */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		AA0000322D60020000A4C001 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000142D60020000A4C001 /* DSButton.swift */,
+				AA0000152D60020000A4C001 /* DSCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AA0000222D60020000A4C001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D0F229A2D60010100A4C001 /* ContentView.swift */,
+				AA0000122D60020000A4C001 /* RootView.swift */,
+				BB0000132D60020100A4C001 /* ScrapbookElementView.swift */,
+				BB0000142D60020100A4C001 /* ScrapbookElementRenders.swift */,
+				BB0000152D60020100A4C001 /* ScrapbookToolbar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA0000232D60020000A4C001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000122D60020100A4C001 /* ScrapbookViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA0000242D60020000A4C001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000112D60020100A4C001 /* ScrapbookElement.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA0000252D60020000A4C001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA0000262D60020000A4C001 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000332D60020000A4C001 /* Views */,
+				AA0000342D60020000A4C001 /* Models */,
+				AA0000352D60020000A4C001 /* Services */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		AA0000332D60020000A4C001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA0000342D60020000A4C001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA0000352D60020000A4C001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA0000272D60020000A4C001 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000362D60020000A4C001 /* Views */,
+				AA0000372D60020000A4C001 /* ViewModels */,
+				AA0000382D60020000A4C001 /* Services */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		AA0000362D60020000A4C001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA0000372D60020000A4C001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA0000382D60020000A4C001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA0000282D60020000A4C001 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000392D60020000A4C001 /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AA0000392D60020000A4C001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA0000292D60020000A4C001 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AA00003A2D60020000A4C001 /* Entities */,
+				AA00003B2D60020000A4C001 /* UseCases */,
+				AA00003C2D60020000A4C001 /* RepositoryInterfaces */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AA00003A2D60020000A4C001 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AA00003B2D60020000A4C001 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		AA00003C2D60020000A4C001 /* RepositoryInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RepositoryInterfaces;
+			sourceTree = "<group>";
+		};
+		AA00002A2D60020000A4C001 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AA00003D2D60020000A4C001 /* API */,
+				AA00003E2D60020000A4C001 /* LocalStorage */,
+				AA00003F2D60020000A4C001 /* Repository */,
+				AA0000402D60020000A4C001 /* DTO */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AA00003D2D60020000A4C001 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AA00003E2D60020000A4C001 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		AA00003F2D60020000A4C001 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		AA0000402D60020000A4C001 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		AA00002B2D60020000A4C001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000412D60020000A4C001 /* Assets.xcassets */,
+				AA0000422D60020000A4C001 /* Stickers */,
+				AA0000432D60020000A4C001 /* Templates */,
+				AA0000442D60020000A4C001 /* Fonts */,
+				AA0000452D60020000A4C001 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA0000412D60020000A4C001 /* Assets.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		AA0000422D60020000A4C001 /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
+		AA0000432D60020000A4C001 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		AA0000442D60020000A4C001 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AA0000452D60020000A4C001 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		AA00002C2D60020000A4C001 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		9D0F22922D60010100A4C001 /* Products */ = {
@@ -80,7 +374,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D0F228C2D60010100A4C001 /* Build configuration list for PBXProject "PaperCraft Journal" */;
+			buildConfigurationList = 9D0F228C2D60010100A4C001 /* Build configuration list for PBXProject "PaperCraftJournal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,6 +409,16 @@
 			files = (
 				9D0F229B2D60010100A4C001 /* ContentView.swift in Sources */,
 				9D0F229D2D60010100A4C001 /* PaperCraftJournalApp.swift in Sources */,
+				AA0000012D60020000A4C001 /* DependencyContainer.swift in Sources */,
+				AA0000022D60020000A4C001 /* RootView.swift in Sources */,
+				AA0000032D60020000A4C001 /* DesignSystem.swift in Sources */,
+				AA0000042D60020000A4C001 /* DSButton.swift in Sources */,
+				AA0000052D60020000A4C001 /* DSCard.swift in Sources */,
+				BB0000012D60020100A4C001 /* ScrapbookElement.swift in Sources */,
+				BB0000022D60020100A4C001 /* ScrapbookViewModel.swift in Sources */,
+				BB0000032D60020100A4C001 /* ScrapbookElementView.swift in Sources */,
+				BB0000042D60020100A4C001 /* ScrapbookElementRenders.swift in Sources */,
+				BB0000052D60020100A4C001 /* ScrapbookToolbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +545,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -249,7 +554,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "PaperCraft Journal";
 				INFOPLIST_KEY_NSCameraUsageDescription = "PaperCraft Journal can use your photos as scrapbook cutouts.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "PaperCraft Journal lets you add photos and cutouts to your pages.";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -270,7 +575,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -278,7 +584,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "PaperCraft Journal";
 				INFOPLIST_KEY_NSCameraUsageDescription = "PaperCraft Journal can use your photos as scrapbook cutouts.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "PaperCraft Journal lets you add photos and cutouts to your pages.";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +604,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D0F228C2D60010100A4C001 /* Build configuration list for PBXProject "PaperCraft Journal" */ = {
+		9D0F228C2D60010100A4C001 /* Build configuration list for PBXProject "PaperCraftJournal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D0F22932D60010100A4C001 /* Debug */,

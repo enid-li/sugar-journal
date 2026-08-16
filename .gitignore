@@ -13,10 +13,19 @@ xcuserdata/
 *.xccheckout
 *.moved-aside
 
+# Xcode - Workspace xcuserdata (per-user settings)
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Xcode - xcshareddata (shared but can have user-specific config)
+PaperCraftJournal.xcodeproj/xcshareddata/
+
 # Xcode - Schemes (contain per-user launch/scheme data)
 *.xcodeproj/xcuserdata/
 *.xcworkspace/xcuserdata/
 *.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Xcode - Workspace directory (user-specific settings)
+PaperCraftJournal.xcodeproj/project.xcworkspace/
 
 # Xcode - Workspace settings
 *.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/configuration/*.xcconfig
